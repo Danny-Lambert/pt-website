@@ -1,0 +1,123 @@
+html, body {
+    height:100%;
+    background-color: rgb(31, 105, 128);
+    font-family: 'Oxygen', sans-serif;
+} 
+
+.firstpage {
+    background-image: url('./images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+
+    /* background-position: left top; */
+}
+
+/* NAVBAR FOR ALL PAGES */
+.nav{
+    background-color: black;
+    font-size: 20px;
+    height: 80px;
+}
+.nav-link{
+    color: white;
+    border: 5%;
+}
+.nav-link:hover{
+    background-color: black !important;
+    color: grey;
+    border: 5%;
+}
+.nav-item:hover{
+    background-color: black;
+    color: grey;
+    border: 5%;
+}
+.nameFirstBox{
+    color:white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 25%;
+}
+.demoLogo{
+    border-radius:20%;
+    max-height: 40px;
+}
+
+/* END OF NAVBAR */
+
+/* FOOTER FOR ALL PAGES */
+.footer{
+    background-color: black;
+    height:15%;
+    justify-content: center;
+    display: flex;
+}
+.footerContent{
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    display: flex;
+
+}
+.socialMediaIcons{
+    color: white;
+   transform: scale(2);
+   margin: 10%;
+}
+.socialMediaIcons:hover {
+    color: grey;
+  }
+
+/* END OF FOOTER */
+
+
+/* START OF HOMEPAGE */
+.nameBox{
+    font-size: 70px;
+    margin-top: 50%;
+
+}
+.titleBox{
+    font-size: 70px;
+}
+/* END OF HOMEPAGE */
+
+
+
+/* ABOUT ME PAGE  */
+.aboutMe{
+    background-image: url('./images/aboutBanner.jpg');
+    background-size: cover;
+    background-color: black;
+       background-repeat: no-repeat;
+    height: 30%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* opacity: 50%; */
+   
+
+}
+.aboutMeText{
+    color:white;   
+    font-size: 50px;
+    opacity: 100%;
+
+}
+
+/* END OF ABOUT ME */
+
+/* ALL OF THE CONTACT FORM */
+.form{width:340px;height:440px;background:#e6e6e6;border-radius:8px;box-shadow:0 0 40px -10px #000;margin:calc(50vh - 220px) auto;padding:20px 30px;max-width:calc(100vw - 40px);box-sizing:border-box;font-family:'Montserrat',sans-serif;position:relative}
+.contactH2{margin:10px 0;padding-bottom:10px;width:180px;color:#78788c;border-bottom:3px solid #78788c}
+.contactInput{width:100%;padding:10px;box-sizing:border-box;background:none;outline:none;resize:none;border:0;font-family:'Montserrat',sans-serif;transition:all .3s;border-bottom:2px solid #bebed2}
+.contactInput:focus{border-bottom:2px solid #78788c}
+.contactP:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#5a5a5a}
+.contactButton{float:right;padding:8px 12px;margin:8px 0 0;font-family:'Montserrat',sans-serif;border:2px solid #78788c;background:0;color:#5a5a6e;cursor:pointer;transition:all .3s}
+.contactButton:hover{background:#78788c;color:#fff}
+.contactDivdiv{content:'Hi';position:absolute;bottom:-15px;right:-20px;background:#50505a;color:#fff;width:320px;padding:16px 4px 16px 0;border-radius:6px;font-size:13px;box-shadow:10px 10px 40px -14px #000}
+.contactSpan{margin:0 5px 0 15px}
